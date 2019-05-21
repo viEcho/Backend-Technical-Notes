@@ -1,5 +1,4 @@
 面试问题总结如下：
-
 1.StringBuilder和StringBuffer的区别？
     其实这道题面试官还可以继续问，string，stringBuilder，stringBuffer的区别。
     待我慢慢道来：
@@ -72,7 +71,7 @@
                    2 .newSingleThreadExecutor：创建一个单线程的线程池
                    3.newCachedThreadPool：创建带有缓存的线程池
                    4.newScheduledThreadPool：创建定时和周期性执行的线程池
- 具体可见https://mp.weixin.qq.com/s/mA59X7bOotyWwvf2V6zMIA?
+ 具体可见[https://mp.weixin.qq.com/s/mA59X7bOotyWwvf2V6zMIA?](https://mp.weixin.qq.com/s/mA59X7bOotyWwvf2V6zMIA?)
 
 7.Oracle常用函数？
     1.MOD(x,y)返回 x 除以 y 的余数
@@ -134,7 +133,7 @@ Redis 优势？
 Redis 缺点？
     （1）单线程
     （2）耗内存
-  具体可参考：http://www.cnblogs.com/linkstar/p/5970354.html
+  具体可参考：[http://www.cnblogs.com/linkstar/p/5970354.html](http://www.cnblogs.com/linkstar/p/5970354.html)
 
 14.什么叫接口？
     接口是一系列方特征的集合，例如实际生活中，电饭煲就是一个做饭的接口，我们只需要提供适量的米和水插上电，
@@ -151,4 +150,4 @@ Redis 缺点？
       3、在编译时进行格式检查。如@override 放在方法前，如果你这个方法并不是覆盖了超类方法，则编译时就能检查出。
    注解的原理：
 　　  注解本质是一个继承了Annotation的特殊接口，其具体实现类是Java运行时生成的动态代理类。而我们通过反射获取注解时，返回的是Java运行时生成的动态代理对象$Proxy1。通过代理对象调用自定义注解（接口）的方法，会最终调用AnnotationInvocationHandler的invoke方法。该方法会从memberValues这个Map中索引出对应的值。而memberValues的来源是Java常量池。
-      具体可参考：https://www.cnblogs.com/jpfss/p/8126049.html
+      具体可参考：[https://www.cnblogs.com/jpfss/p/8126049.html](https://www.cnblogs.com/jpfss/p/8126049.html)
